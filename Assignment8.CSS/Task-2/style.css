@@ -1,0 +1,41 @@
+.container {
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "a a b"
+    "c d b"
+    ;
+    gap: 10px;
+
+}
+
+.box {
+    background-color: #806522;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+    
+
+.a {
+    grid-area: a;
+   
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}

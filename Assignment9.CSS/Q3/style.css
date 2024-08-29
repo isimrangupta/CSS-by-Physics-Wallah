@@ -1,0 +1,23 @@
+/* 1. Target anchor tags with an href attribute, change color to red and remove underline */
+
+a[href] {
+    color: red; /* Text color red */
+    text-decoration: none; /* Remove underline */
+    display: block;
+  }
+
+
+  
+  /* 2. Target anchor tags with class name "active", change text color and provide underline */
+
+  a.active {
+    color: green; 
+    text-decoration: underline; 
+  }
+  
+
+
+  /* 3. Target anchor tags with target attribute value "_self", change background color */
+  a[target="_self"] {
+    background-color: yellow; 
+  }

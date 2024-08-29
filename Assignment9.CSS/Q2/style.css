@@ -1,0 +1,23 @@
+/* Change the text color of all anchor tags to red */
+
+a {
+  color: red; /* Text color red */
+}
+
+
+
+
+/* Target the first h2 tag that comes directly after an h1 tag */
+
+h1 + h2 {
+  color: white; 
+  background-color: rgb(11, 147, 188); 
+}
+
+
+
+/* Change the text color of the first p tag to red */
+
+p:first-of-type {
+  color: red; /* Text color red */
+}

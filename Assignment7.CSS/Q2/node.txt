@@ -1,0 +1,30 @@
+(2) Expain the role of the following key properties in the flexbox ;ayout model 
+a. justify-content
+b. align-items
+c. gap
+d. flex-direction
+e. flex-wrap
+
+
+justify-content:-
+Controls how items are aligned horizontally along the main axis (usually left to right).
+Example: center, space-between, flex-start.
+
+align-items:-
+Controls how items are aligned vertically along the cross axis (usually top to bottom).
+Example: center, stretch, flex-end.
+
+gap:-
+Defines the space between flex items.
+Example: gap: 10px; adds 10px space between each item.
+
+flex-direction:-
+Sets the direction of the flex items.
+Example: row (horizontal) or column (vertical).
+
+flex-wrap:-
+Determines whether items should wrap onto multiple lines or stay on one line.
+Example: wrap allows items to move to the next line if there’s not enough space.
+
+
+Conclusion:- These properties help you control the alignment, spacing, and layout direction of elements within a flex container.

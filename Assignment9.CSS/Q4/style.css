@@ -1,0 +1,26 @@
+/* 1. Target the last <p> tag and add "..." after its content */
+
+p:last-of-type::after {
+    content: "..."; /* Add three dots after the content */
+  }
+
+
+
+  
+  /* 2. Change the color of the bullet points in the list */
+
+  ul {
+    list-style-type: disc; 
+    color: blue; 
+  }
+
+
+
+
+  
+  /* 3. Target the second <p> tag, change the color of the first letter, and increase font size */
+
+  p:nth-of-type(2)::first-letter {
+    color: red; 
+    font-size: 35px; 
+  }

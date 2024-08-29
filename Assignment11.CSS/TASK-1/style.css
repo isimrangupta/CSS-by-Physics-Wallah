@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ccc;
+}
+
+main{
+    font-size: 18px;
+    margin: 20px 10px;
+}
+
+footer{
+    font-size: 18px;
+    margin: 20px 10px;
+}
+
+@media screen and (max-width:600px){
+    header{
+        background-color: blue;
+    }
+}
+
+

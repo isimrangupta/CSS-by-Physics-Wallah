@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    height: 100vh;
+    border: 3px solid rgb(226, 54, 200);
+    display: flex;
+}
+
+.main{
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+#part1{
+    width: 50%;
+    height: 100%;
+}
+
+#frame1{
+   font-size: 1.1rem;
+   display: flex;
+   gap: 20px;
+}
+
+#frame2{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    
+  
+}
+#login_btn, #register_btn, #agent_btn{
+    font-size: 1rem;
+    padding: 4px 14px;
+    border-radius:3px ;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#login_btn{
+    background-color: #FB792B;
+    color: #fff;
+    border: none;
+}
+
+
+/* _________________________ */
+
+.header_title{
+    height: 100px;
+    width: 35%;
+    margin-top: 40px;
+    margin-left: 100px ;
+}
+
+.para{
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* _________________________ */
+
+.sub_nutton{
+    height: 50px;
+    width: 500px;
+    margin-left: 100px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+#frame3, #frame4, #frame5{
+    font-size: 1rem;
+    padding: 5px 15px;
+    border-radius:5px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+#frame3{
+    background-color: #213D77;
+    color: #fff;
+    cursor: pointer;
+}
+i{
+    padding-right:5px;
+}
+
+/* _________________-_______ */
+.rectangle, .search_train{
+    border: 2px solid #eadddd;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+#form, #to{
+    font-size: 1.2rem;
+    color: #3b3a3a;
+    padding-left: 56px;
+    font-weight: 200;
+}
+
+h2{
+    color: #333333;
+    margin-top: 10px;
+}
+
+h4{
+    font-weight: 200;
+    color: #464545;
+    margin-left:55px;
+    margin-top: 6px;
+}
+/* _________________________ */
+
+#arrow_left_right{
+    font-size: 2rem;
+    color: #949090;
+    border: 2px solid #e2dede;
+    width: 66px;
+    height: 63px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 12px;
+}
+  
+#date, #class, #seat{
+    padding-left: 30px;
+}
+
+/* ___________________________ */
+
+   
+#search_btn{
+    border: none;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: #01BB0A;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* part2 CSS :----*/
+
+#part2{
+    width: 50%;
+    height: 100%;
+   
+}
+
+#train_img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+

@@ -1,0 +1,15 @@
+/* Add random text before the <h1> tag */
+
+h1::before {
+    content: "Before text ";
+    color: red; 
+  }
+
+  
+  
+  /* Add random text after the <h1> tag */
+
+  h1::after {
+    content: " After text"; 
+    color: blue; 
+  }

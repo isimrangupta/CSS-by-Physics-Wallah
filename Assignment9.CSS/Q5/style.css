@@ -1,0 +1,29 @@
+/* 1. Descendant Combinator Selector: Remove list style type bullet points and text underlining */
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+
+
+  
+  nav ul a {
+    text-decoration: none; /* Remove underline from links */
+  }
+
+
+  
+  /* 2. Child Combinator Selector: Display menu list items inline */
+
+  nav ul > li {
+    display: inline; /* Display list items inline */
+}
+    
+
+
+/* 3. Adjacent Sibling Combinator Selector: Apply margin between menu list items */
+
+nav ul li + li {
+  margin-left: 20px; /* Add margin between list items */
+}
+  
